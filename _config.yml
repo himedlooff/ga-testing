@@ -1,0 +1,44 @@
+# Base configuration
+permalink: /:title 
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+markdown: redcarpet
+pygments: true
+
+# Title
+name: GA Testing
+subtitle: Testing Google Analytics embed types
+
+# When using this template with a project page set the baseurl to '/project-name'
+# For user/organization pages set this to an empty string
+# When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
+# See http://jekyllrb.com/docs/github-pages/ for more info
+#baseurl: ''
+baseurl: ''
+
+# Author/Organization info to be displayed in the templates
+author:
+  name: Mike
+  url: http://localhost:4000
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl: 
+logoalt:
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Home
+  url: index.html
+  internal: true
+- text: Internal page 1
+  url: internal_page_1.html
+  internal: true
+- text: Internal page 2
+  url: internal_page_2.html
+  internal: true
+- text: Brooklyn Weather
+  url: http://www.weather.com/weather/today/11238:4:US
+  internal: false
+- text: DC Weather
+  url: http://www.weather.com/weather/today/USDC0001:1:US
+  internal: false
