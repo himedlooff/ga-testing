@@ -30,11 +30,11 @@ navigation:
 - text: Home
   url: index.html
   internal: true
-- text: Internal page 1
-  url: internal_page_1.html
+- text: Classic Analytics
+  url: analytics_classic.html
   internal: true
-- text: Internal page 2
-  url: internal_page_2.html
+- text: Universal Analytics
+  url: analytics_universal.html
   internal: true
 - text: Brooklyn Weather
   url: http://www.weather.com/weather/today/11238:4:US

@@ -13,6 +13,16 @@
           <script src="{{ site.baseurl }}/assets/js/respond.min.js"></script>
         <![endif]-->
 
+        {% if page.ga_location == 'head' %}
+
+          {% if page.ga_file == 'ga_classic.html' %}
+            {% include ga_classic.html %}
+          {% elsif page.ga_file == 'ga_universal.html' %}
+            {% include ga_universal.html %}
+          {% endif %}
+
+        {% endif %}
+
     </head>
     <body>
 
@@ -40,7 +50,15 @@
 
       </div><!-- /.wrap -->
 
-      <!-- ga script here -->
+      {% if page.ga_location == 'body' %}
+
+        {% if page.ga_file == 'ga_classic.html' %}
+          {% include ga_classic.html %}
+        {% elsif page.ga_file == 'ga_universal.html' %}
+          {% include ga_universal.html %}
+        {% endif %}
+
+      {% endif %}
 
     </body>
 </html>
