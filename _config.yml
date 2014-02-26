@@ -33,8 +33,8 @@ navigation:
 - text: Example page 1
   url: page-1.html
   internal: true
-- text: Example page 1
-  url: page-1.html
+- text: Example page 2
+  url: page-2.html
   internal: true
 - text: Brooklyn Weather
   url: http://www.weather.com/weather/today/11238:4:US
