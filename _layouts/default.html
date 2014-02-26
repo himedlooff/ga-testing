@@ -12,17 +12,6 @@
           <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
           <script src="{{ site.baseurl }}/assets/js/respond.min.js"></script>
         <![endif]-->
-
-        {% if page.ga_location == 'head' %}
-
-          {% if page.ga_file == 'ga_classic.html' %}
-            {% include ga_classic.html %}
-          {% elsif page.ga_file == 'ga_universal.html' %}
-            {% include ga_universal.html %}
-          {% endif %}
-
-        {% endif %}
-
     </head>
     <body>
 
@@ -50,15 +39,7 @@
 
       </div><!-- /.wrap -->
 
-      {% if page.ga_location == 'body' %}
-
-        {% if page.ga_file == 'ga_classic.html' %}
-          {% include ga_classic.html %}
-        {% elsif page.ga_file == 'ga_universal.html' %}
-          {% include ga_universal.html %}
-        {% endif %}
-
-      {% endif %}
+      {% include analytics.html %}
 
     </body>
 </html>

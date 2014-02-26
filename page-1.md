@@ -1,8 +1,6 @@
 ---
 layout: page
-title:  "Classic Analytics"
-ga_file: "ga_classic.html"
-ga_location: "head"
+title:  "Example page 1"
 ---
 
 Bacon ipsum dolor sit amet pork loin kielbasa spare ribs frankfurter, porchetta ham beef boudin sirloin biltong landjaeger short loin tongue rump turducken. Venison pastrami porchetta short loin tongue rump hamburger tenderloin salami prosciutto bacon turkey shankle shoulder cow. Shankle pork pastrami, leberkas boudin kevin flank capicola tongue. Jerky turkey pork chop, pork belly flank drumstick brisket andouille. Frankfurter short ribs pig, chicken pork loin corned beef salami ham hock boudin.
